@@ -28,7 +28,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              @knyttneve
+              @tickets
             </a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
