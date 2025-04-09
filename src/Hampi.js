@@ -1,5 +1,4 @@
 import React from "react";
-import displayRazorpay from "./utils/PaymentGateway";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
 const Hampi = () => {
@@ -28,21 +27,14 @@ const Hampi = () => {
               GROUP OF MONUMENTS HAMPI
             </h1>
             <p className="mb-8 leading-relaxed">
-              Hampi, located in Karnataka, is a UNESCO World Heritage Site known
-              for its stunning ruins and rich history as the capital of the
-              Vijayanagara Empire. The town is filled with ancient temples, stone
-              chariots, and unique architecture set against a surreal
-              boulder-strewn landscape. It stands as a testament to India’s
-              glorious past and attracts history lovers and travelers from around
-              the world.
+              Hampi, located in Karnataka, is a UNESCO World Heritage Site known for its stunning ruins and rich history as the capital of the Vijayanagara Empire. The town is filled with ancient temples, stone chariots, and unique architecture set against a surreal boulder-strewn landscape. It stands as a testament to India’s glorious past and attracts history lovers and travelers from around the world.
             </p>
             <div className="flex justify-center">
-              <button
-                className="payment-button inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-                onClick={displayRazorpay}
-              >
-                Book Now
-              </button>
+              <a href="https://rzp.io/l/bhramaan">
+                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  Book Now
+                </button>
+              </a>
               <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                 Learn More
               </button>
@@ -56,9 +48,7 @@ const Hampi = () => {
             center={center}
             zoom={15}
             mapContainerClassName="map-container"
-          >
-            {/* Optional: Add Marker here */}
-          </GoogleMap>
+          />
         </LoadScript>
       </section>
     </div>
