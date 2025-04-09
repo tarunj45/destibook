@@ -10,7 +10,6 @@ import Hawamahal from "./Hawamahal";
 import Success from "./Success";
 import Explore from "./Restaurants";
 import AboutPage from "./AboutPage";
-import ExploreUnexplored from "./ExploreUnexplored";
 
 function App() {
   return (
@@ -24,10 +23,10 @@ function App() {
         <Route path="/success" element={<Success />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/about" element={[<Header />, <AboutPage />, <Footer />]} />
-        <Route path="/explore-unexplored" element={[<Header />, <ExploreUnexplored />, <Footer />]} />
       </Routes>
     </div>
   );
 }
 
 export default App;
+
