@@ -9,7 +9,8 @@ import Hampi from "./Hampi";
 import Hawamahal from "./Hawamahal";
 import Success from "./Success";
 import Explore from "./Restaurants";
-import AboutPage from "./AboutPage"; // ✅ Import About Page
+import AboutPage from "./AboutPage";
+import ExploreUnexplored from "./ExploreUnexplored";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Route path="/gallery/hawamahal" element={<Hawamahal />} />
         <Route path="/success" element={<Success />} />
         <Route path="/explore" element={<Explore />} />
-        <Route path="/about" element={[<Header />, <AboutPage />, <Footer />]} /> {/* ✅ About route */}
+        <Route path="/about" element={[<Header />, <AboutPage />, <Footer />]} />
+        <Route path="/explore-unexplored" element={[<Header />, <ExploreUnexplored />, <Footer />]} />
       </Routes>
     </div>
   );
