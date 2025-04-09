@@ -52,7 +52,7 @@ const Gallery = () => {
                       Group of Monuments, Hampi
                     </h2>
                     <p class="leading-relaxed">
-                      Skateboard +1 mustache fixie paleo lumbersexual.
+                      Ancient ruins, temples, boulders, Vijayanagara empire, heritage, Karnataka.
                     </p>
                     <Link
                       class="mt-3 text-gray-900 inline-flex items-center"
@@ -86,7 +86,7 @@ const Gallery = () => {
                       Hawa Mahal
                     </h2>
                     <p class="leading-relaxed">
-                      Skateboard +1 mustache fixie paleo lumbersexual.
+                     Pink facade, Jaipur, windows, breeze, royal palace, architecture.
                     </p>
                     <Link
                       class="mt-3 text-gray-900 inline-flex items-center"
