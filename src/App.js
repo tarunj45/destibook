@@ -9,10 +9,11 @@ import Hampi from "./Hampi";
 import Hawamahal from "./Hawamahal";
 import Success from "./Success";
 import Explore from "./Restaurants";
+import AboutPage from "./AboutPage"; // ✅ Import About Page
 
 function App() {
   return (
-    <div className="App, bg-gray-800">
+    <div className="App bg-gray-800">
       <Routes>
         <Route path="/" element={[<Header />, <Hero />, <Footer />]} />
         <Route path="/gallery" element={<Gallery />} />
@@ -21,8 +22,10 @@ function App() {
         <Route path="/gallery/hawamahal" element={<Hawamahal />} />
         <Route path="/success" element={<Success />} />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/about" element={[<Header />, <AboutPage />, <Footer />]} /> {/* ✅ About route */}
       </Routes>
     </div>
   );
 }
+
 export default App;
