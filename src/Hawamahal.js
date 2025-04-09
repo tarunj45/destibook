@@ -15,11 +15,7 @@ const Hawamahal = () => {
               HAWA MAHAL
             </h1>
             <p class="mb-8 leading-relaxed">
-              Meggings kinfolk echo park stumptown DIY, kale chips beard
-              jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice
-              godard disrupt ramps hexagon mustache umami snackwave tilde
-              chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac
-              mlkshk freegan photo booth af fingerstache pitchfork.
+              Hampi, located in Karnataka, is a UNESCO World Heritage Site known for its stunning ruins and rich history as the capital of the Vijayanagara Empire. The town is filled with ancient temples, stone chariots, and unique architecture set against a surreal boulder-strewn landscape. It stands as a testament to India’s glorious past and attracts history lovers and travelers from around the world.
             </p>
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
